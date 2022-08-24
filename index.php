@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- import fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- import bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -126,7 +129,26 @@
 
     </main>
     <footer>
-
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-6">
+                        <ul class="footer-list">
+                            <li>Google</li>
+                            <li>Tutto su Google</li>
+                            <li>Privacy</li>
+                            <li>Termini</li>
+                        </ul>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    <span><i class="fa-solid fa-message"></i></span>
+                    <select name="pets" id="pet-select" class="ms-3">
+                        <option value="italiano">Italiano</option>
+                        <option value="espanol">Espanol</option>
+                        <option value="english">English</option>
+                    </select>
+                </div>
+            </div>
+        </div>                
     </footer>
 </body>
 </html>

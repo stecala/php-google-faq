@@ -46,8 +46,29 @@
 
 
 .container-lg{
-    padding: 150px 150px 0 150px;
+    padding: 150px 150px 80px 150px;
 }
 p{
     margin-top: 40px;
+}
+
+footer{
+    background-color: rgb(245,245,245);
+}
+footer>.container-lg{
+    padding: 30px 150px;
+}
+.footer-list{
+    list-style: none;
+    margin: 0;
+}
+.footer-list>li{
+    display: inline;
+    font-size: 0.8rem;
+    padding-right: 10px;
+    cursor: pointer;
+}
+i{
+    color: blue;
+    transform: scaleX(-1);
 }
