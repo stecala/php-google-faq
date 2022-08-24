@@ -71,14 +71,24 @@
         ];
     ?>
     <header>
+        <div class="container-fluid">
+            <div class="row justify-content-between">
+                <div class="col-3 d-flex align-items-center">
+                    <div class="logo-container">
+                        <img src="./img/google-logo.png" alt="google logo">
+                    </div>
+                    <span class="privacy">Pivacy e termini</span>
+                </div>
+            </div>
 
+        </div>
     </header>
     <main>
-        <div class="container-lg px-5">
+        <div class="container-lg">
             <div class="row mt-5">
                 <?php foreach($faqs as $key => $singleFaqs){ ?>
                 <div class="col-12">
-                    <h3 class="mb-4">
+                    <h3 class="mt-5">
                         <?php
                         echo $singleFaqs['question'];
                         ?>
