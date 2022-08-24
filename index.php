@@ -70,22 +70,41 @@
             ],
         ];
     ?>
-    <header>
+    <header class="position-fixed w-100 bg-white border-bottom">
         <div class="container-fluid">
-            <div class="row justify-content-between">
+            <div class="row justify-content-between align-items-center">
                 <div class="col-3 d-flex align-items-center">
                     <div class="logo-container">
                         <img src="./img/google-logo.png" alt="google logo">
                     </div>
                     <span class="privacy">Pivacy e termini</span>
                 </div>
+                <div class="col-4 d-flex align-items-center justify-content-end">
+                    <div class="icon-container">
+                        <svg class="gb_Ue" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>
+                        </svg>
+                    </div>
+                    <div class="profile">
+                        <img src="./img/profile.png" alt="profile pic">
+                    </div>
+                </div>
             </div>
-
+            <div class="row">
+                <div class="col-12">
+                    <ul class="header-list">
+                        <li>Introduzione</li>
+                        <li>Norme sulla privacy</li>
+                        <li>Termini di servizio</li>
+                        <li>Tecnologie</li>
+                        <li class="selected">Domande frequenti</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </header>
     <main>
-        <div class="container-lg">
-            <div class="row mt-5">
+        <div class="container-lg ">
+            <div class="row ">
                 <?php foreach($faqs as $key => $singleFaqs){ ?>
                 <div class="col-12">
                     <h3 class="mt-5">

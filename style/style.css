@@ -1,28 +1,52 @@
 .logo-container{
     width: 100px;
-    height: 100px;
+    height: 80px;
     width: fit-content;
 }
 .logo-container > img{    
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-fit: center;
 }
 .privacy{
     color: gray;
     font-size: 1.7rem;
     cursor: pointer;
 }
-
-
-
+.icon-container{
+    color: grey;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.profile{
+    width: 50px;
+}
+.profile>img{
+    width: 100%;
+}
+.header-list{
+    list-style: none;
+    margin: 0;
+}
+.header-list>li{
+    display: inline-block;
+    padding: 15px 0;
+    margin-right: 50px;
+    text-align: center;
+}
+.selected{
+    color: blue;
+    border-bottom: 2px solid blue;
+}
 
 
 
 
 
 .container-lg{
-    padding: 0 150px;
+    padding: 150px 150px 0 150px;
 }
 p{
     margin-top: 40px;
